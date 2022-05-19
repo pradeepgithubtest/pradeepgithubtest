@@ -10,6 +10,7 @@ public class StepDefinitionFB extends BaseClass {
 	
 	@Given("User is on the facebook login page")
 	public void user_is_on_the_facebook_login_page() {
+		//git conflict test
 		browserLaunch("https://en-gb.facebook.com/\r\n");
 		System.out.println("Browser Launched Successfully");
 		
